@@ -2,13 +2,17 @@
 
 @media screen and (min-width:768px) and (max-width:992px) { /*TABLET*/
     
-    body{
-        background-image: linear-gradient(to top , #4a909d, #5f2c82);
-    }
+
     
+    main{
+        background-image: linear-gradient(to top , #4b929e, #5f2c82);
+        height: 100vh;
+        width: 100vw;
+    }
+
     section#login{
         width: 80vw;
-        height:280px;
+        height:300px;
     }
 
     section#login > div#imagem{
@@ -28,6 +32,10 @@
 @media screen and (min-width:992px){ /*TELONAS*/
     
     body{
+        
+    }
+
+    main{
         background-image: linear-gradient(to top , #4a909d, #5f2c82);
     }
 

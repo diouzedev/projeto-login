@@ -19,30 +19,29 @@ body, html{
     background-color: #5f2c82;
     height: 100vh;
     width: 100vw;
+    
 }
 
 main{
-    position: relative;
     height: 100vh;
     width: 100vw;
+    background-color: #5f2c82;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+   
 }
 
 section#login{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    overflow: hidden;
-
     background-color: white;
     width:250px;
-    height:515px;
+    height:555px;
     border-radius:20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.495);
-
-    transform:translate(-50%,-50%);
-    transition: width 0.3s, height 0.3s;
-    transition-timing-function: ease;
-
+    
+    transition: width 0.2s, height 0.2s;
 }
 
 Section#login > div#imagem{
@@ -51,7 +50,7 @@ Section#login > div#imagem{
     background-size: cover;
     background-position: center center;
     height:200px;
-
+   
 }
 
 section#login > div#formulario{
@@ -77,6 +76,11 @@ form > div.campo{
     height: 40px;
     border-radius: 8px;
     margin: 5px 0px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 div.campo > input{
@@ -88,7 +92,8 @@ div.campo > input{
     border:0px;
     border-radius:8px;
     padding: 4px;
-    transform: translateY(-12px);
+    
+    
 }
 
 div.campo > input:focus-within{
